@@ -1,0 +1,99 @@
+/*
+ * Copyright 2018 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+  margin: 0px;
+}
+
+#header {
+  color: white;
+  background-color: #4a75e6;
+  font-size: 20px;
+  height: 200px;
+  margin: 0px;
+  padding-top: 3%;
+  text-align: center;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#links {
+  background-color: #Febc1f;
+  height: 50px;
+  text-align: center;
+  border: 5px solid white;
+}
+
+.link {
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#info {
+  background-color: #08AF22;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  border: 5px solid white;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#slogan {
+  font-style: italic;
+}
+
+#students {
+  background-color: #EA2533;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border: 5px solid white;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#picture {
+  border-radius: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* They will shrink, but will not grow when expanding the screen  */
